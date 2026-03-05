@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="IAS Champion, UPSC, Foundation Course, School Students">
+    <meta name="author" content="IAS Champion">
+    <title>IAS Champion | UPSC Foundation Programs</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/line-icons.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/nivo-lightbox.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/color-switcher.css">
+    <link rel="stylesheet" href="css/menu_sideslide.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <style>
+      :root {
+        --ias-red: #c5161d;
+        --ias-purple: #4d2b85;
+        --ias-dark: #1b0f26;
+        --ias-light: #f6f1fb;
+      }
+      body {
+        color: #2c2142;
+      }
+      a {
+        color: var(--ias-purple);
+      }
+      a:hover,
+      a:focus {
+        color: var(--ias-red);
+      }
+      .navbar-nav .nav-link.page-scroll:hover,
+      .navbar-nav .nav-link.page-scroll.active {
+        color: var(--ias-red);
+      }
+      .navbar-brand img {
+        height: 48px;
+        width: auto;
+        transition: transform 0.2s ease;
+      }
+      .navbar-brand img:hover {
+        transform: scale(1.03);
+      }
+      .btn-common {
+        background: linear-gradient(120deg, var(--ias-red), var(--ias-purple));
+        border: none;
+      }
+      .btn-border {
+        border-color: var(--ias-purple);
+        color: var(--ias-purple);
+      }
+      .btn-border:hover {
+        background: var(--ias-purple);
+        color: #fff;
+      }
+      .section-header .section-title:before {
+        background: var(--ias-red);
+      }
+      .section-header span {
+        color: rgba(77, 43, 133, 0.08);
+      }
+      .bg-defult {
+        background: var(--ias-red) !important;
+      }
+      .badge-secondary,
+      .badge-success,
+      .badge-primary,
+      .badge-warning {
+        background-color: var(--ias-purple);
+        color: #fff;
+      }
+      .services-item .icon,
+      .featured-icon,
+      .facts-item .icon {
+        background: var(--ias-light);
+        color: var(--ias-purple);
+      }
+      .contact-info i,
+      .footer-social li a {
+        color: var(--ias-purple);
+      }
+      .back-to-top {
+        background: var(--ias-purple);
+      }
+      footer {
+        background: #120a1d;
+      }
+      footer .text-muted {
+        color: #cbbbe2 !important;
+      }
+      footer a {
+        color: #d9c9ff;
+      }
+      footer a:hover {
+        color: var(--ias-red);
+      }
+      /* Dropdown visibility fixes */
+      select.form-control {
+        color: #2c2142 !important;
+        background-color: #fff !important;
+        border: 1px solid #ddd;
+      }
+      select.form-control option {
+        color: #2c2142 !important;
+        background-color: #fff !important;
+        padding: 8px;
+      }
+      select.form-control:focus {
+        color: #2c2142 !important;
+        background-color: #fff !important;
+        border-color: var(--ias-purple);
+        box-shadow: 0 0 0 0.2rem rgba(77, 43, 133, 0.25);
+      }
+      /* Mission/Vision card styling */
+      .mission-vision-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .mission-vision-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.15) !important;
+      }
+      .mission-vision-card .icon-box {
+        width: 50px;
+        height: 50px;
+        background: linear-gradient(120deg, var(--ias-red), var(--ias-purple));
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 24px;
+      }
+      .about-content {
+        background: #fff;
+        border-radius: 18px;
+      }
+      .about-content p,
+      .mission-vision-card p,
+      .mission-vision-card li {
+        color: #2c2142;
+      }
+      /* Additional hover effects for cards */
+      .track-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        padding: 20px;
+        border: 1px solid rgba(0,0,0,0.05);
+        margin-bottom: 30px;
+      }
+      .track-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 40px rgba(0,0,0,0.15) !important;
+      }
+      .track-card .pricing-details {
+        padding: 10px 5px 25px;
+      }
+      .track-card .plan-button {
+        padding: 0 10px 10px;
+      }
+      .card.shadow-sm:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.12) !important;
+        transition: all 0.3s ease;
+      }
+      /* Testimonials center alignment and styling */
+      .testimonial-card {
+        background: #fff;
+        padding: 40px 30px;
+        border-radius: 15px;
+        box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        height: 100%;
+      }
+      .testimonial-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 35px rgba(0,0,0,0.15);
+      }
+      .testimonial-badge {
+        background: linear-gradient(120deg, var(--ias-red), var(--ias-purple));
+        color: #fff;
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      .testimonial-item {
+        text-align: center;
+      }
+      .testimonial-item .author {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      .testimonial-item .content-inner {
+        text-align: center;
+      }
+      /* Contact section fixes */
+      #contact {
+        background: linear-gradient(135deg, #1b0f26 0%, #2d1b3d 100%) !important;
+      }
+      #contact .section-header,
+      #contact .section-title,
+      #contact .section-subtitle {
+        color: #fff !important;
+      }
+      #contact .contact-info h5,
+      #contact .contact-info p {
+        color: #fff !important;
+      }
+      #contact .contact-form {
+        background: #fff !important;
+      }
+      #contact .contact-form label {
+        color: #2c2142 !important;
+      }
+      #contact .contact-form .form-control {
+        color: #2c2142 !important;
+        background-color: #fff !important;
+      }
+      .contact-card {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 12px;
+        padding: 25px;
+        text-align: center;
+        transition: transform 0.3s ease, background 0.3s ease;
+      }
+      .contact-card:hover {
+        background: rgba(255, 255, 255, 0.15);
+        transform: translateY(-5px);
+      }
+      .contact-card i {
+        font-size: 36px;
+        color: var(--ias-red);
+        margin-bottom: 15px;
+        display: block;
+      }
+      .contact-card h5 {
+        color: #fff;
+        font-weight: 600;
+      }
+      .contact-card p {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 14px;
+      }
+      /* Contact info highlight (phone / email) */
+      .contact-card .contact-contacts {
+        margin-top: 8px;
+      }
+      .contact-card .contact-phone {
+        color: #fff;
+        font-size: 1.05rem;
+        font-weight: 700;
+        text-decoration: none;
+        display: inline-block;
+        margin-bottom: 4px;
+      }
+      .contact-card .contact-phone:hover {
+        color: #ffdcdc;
+        text-decoration: underline;
+      }
+      .contact-card .contact-email {
+        color: rgba(255,255,255,0.8);
+        font-size: 0.95rem;
+        text-decoration: none;
+      }
+      .contact-card .contact-email:hover {
+        color: #fff;
+        text-decoration: underline;
+      }
+      .track-card {
+        border-radius: 18px;
+        background: #fff;
+      }
+      .track-card ul li {
+        color: #5a4d71;
+      }
+      .text-ias {
+        color: var(--ias-purple);
+      }
+      .testimonial-card {
+        background: linear-gradient(135deg, rgba(77,43,133,0.95), rgba(197,22,29,0.92));
+        border-radius: 24px;
+        padding: 40px;
+        color: #fff;
+        position: relative;
+        min-height: 320px;
+      }
+      .testimonial-card .quote-icon {
+        font-size: 40px;
+        opacity: 0.4;
+      }
+      .testimonial-badge {
+        display: inline-flex;
+        align-items: center;
+        padding: 6px 16px;
+        border-radius: 50px;
+        background: rgba(255,255,255,0.15);
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+      .team-carousel .single-team {
+        margin: 15px;
+      }
+      .contact-card {
+        border-radius: 16px;
+        padding: 24px;
+        background: #1f1230;
+        color: #fff;
+        height: 100%;
+      }
+      .contact-card i {
+        font-size: 28px;
+        margin-bottom: 12px;
+        color: var(--ias-red);
+      }
+      /* WhatsApp Floating Button */
+      .whatsapp-float {
+        position: fixed;
+        width: 70px;
+        height: 70px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        animation: pulse 2s infinite;
+      }
+      .whatsapp-float:hover {
+        background-color: #20ba5a;
+        transform: scale(1.1);
+        box-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+      }
+      .whatsapp-float i {
+        margin-top: 0;
+      }
+      @keyframes pulse {
+        0% {
+          box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+        }
+        70% {
+          box-shadow: 0 0 0 10px rgba(37, 211, 102, 0);
+        }
+        100% {
+          box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+        }
+      }
+      @media (max-width: 768px) {
+        .whatsapp-float {
+          width: 50px;
+          height: 50px;
+          bottom: 20px;
+          right: 20px;
+          font-size: 24px;
+        }
+      }
+      /* Success Alert Styles */
+      .alert-success-custom {
+        position: fixed;
+        top: 100px;
+        right: 20px;
+        z-index: 9999;
+        min-width: 300px;
+        animation: slideInRight 0.5s ease;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      }
+      @keyframes slideInRight {
+        from {
+          transform: translateX(400px);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header id="slider-area">  
+      <nav class="navbar navbar-expand-md fixed-top scrolling-navbar bg-white">
+        <div class="container">          
+          <a class="navbar-brand" href="#slider-area" aria-label="IAS Champion">
+            <img src="img/ias-champion-logo.jpg" alt="IAS Champion logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="lni-menu"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#slider-area">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#about">About Us</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#courses">Courses</a>
+              </li>                            
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#student-registration">Student Registration</a>
+              </li>            
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#school-registration">School Registration</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#testimonials">Testimonials</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#team">Team</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#contact">Contact Us</a>
+              </li> 
+            </ul>              
+          </div>
+        </div>
+      </nav> 
+
+      <div id="carousel-area">
+        <div id="carousel-slider" class="carousel slide carousel-fade" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-slider" data-slide-to="1"></li>
+            <li data-target="#carousel-slider" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img src="img/slider/bg-4.jpg" alt="">
+              <div class="carousel-caption text-left">
+                <h3 class="wow fadeInRight" data-wow-delay="0.2s">Guiding School Students</h3>  
+                <h2 class="wow fadeInRight" data-wow-delay="0.4s">IAS Champion Foundation</h2>
+                <h4 class="wow fadeInRight" data-wow-delay="0.6s">UPSC-ready habits from Grade 6 onwards</h4>
+                <a href="#courses" class="btn btn-lg btn-common btn-effect wow fadeInRight" data-wow-delay="0.9s">Explore Pathways</a>
+                <a href="#student-registration" class="btn btn-lg btn-border wow fadeInRight" data-wow-delay="1.2s">Join the Cohort</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/slider/bg-3.jpg" alt="">
+              <div class="carousel-caption text-center">
+                <h3 class="wow fadeInDown" data-wow-delay="0.3s">For Progressive Schools</h3>
+                <h2 class="wow bounceIn" data-wow-delay="0.6s">Partner with IAS Champion</h2> 
+                <h4 class="wow fadeInUp" data-wow-delay="0.9s">Integrated civics, leadership and aptitude labs</h4>
+                <a href="#school-registration" class="btn btn-lg btn-common btn-effect wow fadeInUp" data-wow-delay="1.2s">Co-create Programs</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/slider/bg-2.jpg" alt="">
+              <div class="carousel-caption text-center">
+                <h3 class="wow fadeInDown" data-wow-delay="0.3s">Mentors • Mock PARLIAMENTS • Masterclasses</h3>
+                <h2 class="wow fadeInRight" data-wow-delay="0.6s">Confidence for UPSC & beyond</h2> 
+                <h4 class="wow fadeInUp" data-wow-delay="0.6s">Civics, communication and community impact projects</h4>
+                <a href="#contact" class="btn btn-lg btn-border wow fadeInUp" data-wow-delay="0.9s">Talk to an Advisor</a>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
+            <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-left"></i></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-slider" role="button" data-slide="next">
+            <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-right"></i></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>  
+
+    </header>
+
+    <section id="about" class="section pt-120 pb-80">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Us</h2>
+          <span>About</span>
+          <p class="section-subtitle">Where Young Minds Begin Their Journey to Serve the Nation!</p>
+        </div>
+        <div class="row justify-content-center mb-5">
+          <div class="col-lg-10 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="about-content p-4 p-md-5 shadow-sm bg-white rounded position-relative" style="background-image: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1200&q=80'); background-size: cover; background-position: center; background-blend-mode: overlay; background-color: rgba(255,255,255,0.95);">
+              <div class="position-relative" style="z-index: 1;">
+                <p class="lead mb-4">Every great leader was once a child full of questions, dreams, and the desire to make a difference. At <strong>IAS Champion</strong>, we believe that the seeds of service, courage, and leadership must be sown early, nurtured with the right values, and guided by a deeper purpose.</p>
+                <p class="mb-3">IAS Champion is a government-registered academic initiative founded by experienced UPSC mentors under the guidance of in-service candidates, designed to mentor young minds. Our goal is not just to prepare future Civil Servants, but to shape responsible citizens and change-makers for India.</p>
+                <p class="mb-3">Through our unique online model and structured programs for students of Classes 5<sup>th</sup> to 12<sup>th</sup>, we offer a foundation course that aligns with NCERT curriculum, the UPSC syllabus, and the transformative vision of NEP 2020.</p>
+                <p class="mb-0">We don't just teach subjects, we open young hearts to the idea of India — its struggles, its Constitution, its heroes, and its future. We bring History, Polity, Geography, and Economics to life not through rote learning, but through stories, real-life connections, and thought-provoking questions that awaken character, curiosity, and courage.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-6 mb-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="card border-0 shadow-sm h-100 mission-vision-card">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="icon-box mr-3">
+                    <i class="lni-bullhorn"></i>
+                  </div>
+                  <h5 class="text-uppercase text-muted mb-0">Mission</h5>
+                </div>
+                <p class="mb-0">To nurture a generation of young Indians who view public service not just as a career, but as a commitment to nation-building. We aim to make leadership, civic responsibility, and constitutional values a part of every student's early learning journey empowering them to grow into curious thinkers, ethical leaders, and responsible citizens of tomorrow.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="card border-0 shadow-sm h-100 mission-vision-card">
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="icon-box mr-3">
+                    <i class="lni-eye"></i>
+                  </div>
+                  <h5 class="text-uppercase text-muted mb-0">Vision</h5>
+                </div>
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-2"><i class="lni-check-mark-circle text-ias mr-2"></i>To make UPSC-level thinking accessible and engaging for students through structured, age-appropriate, and interactive modules.</li>
+                  <li class="mb-2"><i class="lni-check-mark-circle text-ias mr-2"></i>To support schools in aligning their educational delivery with the transformative goals of NEP 2020, fostering curiosity, civic awareness, and leadership.</li>
+                  <li class="mb-2"><i class="lni-check-mark-circle text-ias mr-2"></i>To democratize civil services preparation by reaching students across diverse backgrounds through a learning model that combines flexibility with mentorship.</li>
+                  <li class="mb-0"><i class="lni-check-mark-circle text-ias mr-2"></i>To instill aptitude, reasoning, and officer-like qualities in young learners preparing them not just for exams, but for a lifetime of purposeful leadership.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="courses" class="section bg-light position-relative" style="background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1920&q=80'); background-size: cover; background-position: center; background-attachment: fixed;">
+      <div class="position-absolute" style="top: 0; left: 0; right: 0; bottom: 0; background: rgba(246, 241, 251, 0.92); z-index: 0;"></div>
+      <div class="container position-relative" style="z-index: 1;">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInUp">Featured Courses</h2>
+          <span>Courses</span>
+          <p class="section-subtitle wow fadeInUp" data-wow-delay="0.2s">Choose from flexible pathways designed with subject matter experts.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mb-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="pricing-table track-card shadow h-100">
+              <div class="pricing-details text-left">
+                <p class="badge badge-pill badge-secondary mb-3">Track 01</p>
+                <h2>Junior Explorer</h2>
+                <h3 class="price text-ias">Grades 6-8</h3>
+                <p class="text-muted">Curiosity builders focused on NCERT mastery, reading stamina and presentation basics.</p>
+                <ul>
+                  <li>Weekly concept labs + doubt clinics</li>
+                  <li>History & polity storyboards</li>
+                  <li>Habit trackers & mentorship circles</li>
+                </ul>
+              </div>
+              <div class="plan-button">
+                <a href="#student-registration" class="btn btn-common btn-effect w-100">Enroll Explorer</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="pricing-table pricing-big track-card shadow-lg h-100">
+              <div class="pricing-details text-left">
+                <p class="badge badge-pill badge-secondary mb-3">Track 02</p>
+                <h2>Scholar Advantage</h2>
+                <h3 class="price text-ias">Grades 9-10</h3>
+                <p class="text-muted">Integrated Policy Lab + Ethics Studio that accelerate writing, analysis and confidence.</p>
+                <ul>
+                  <li>Current affairs simulations & debates</li>
+                  <li>Essay frameworks & note-making drills</li>
+                  <li>Leadership projects with service hours</li>
+                </ul>
+              </div>
+              <div class="plan-button">
+                <a href="#student-registration" class="btn btn-common btn-effect w-100">Join Scholar Track</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="pricing-table track-card shadow h-100">
+              <div class="pricing-details text-left">
+                <p class="badge badge-pill badge-secondary mb-3">Track 03</p>
+                <h2>Aspirant Pro</h2>
+                <h3 class="price text-ias">Grades 11-12 / Gap</h3>
+                <p class="text-muted">Interview Builder + UPSC fundamentals with personalised feedback from seasoned officers.</p>
+                <ul>
+                  <li>GS mastery pods & mock interviews</li>
+                  <li>Portfolio & internship guidance</li>
+                  <li>1:1 mentoring with study coaches</li>
+                </ul>
+              </div>
+              <div class="plan-button">
+                <a href="#student-registration" class="btn btn-common btn-effect w-100">Apply to Aspirant Pro</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="student-registration" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInUp">Student Registration</h2>
+          <span>Students</span>
+          <p class="section-subtitle wow fadeInUp" data-wow-delay="0.2s">Tell us about your IAS dream and we will curate the ideal foundation journey.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 wow fadeInLeft" data-wow-delay="0.3s">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <form id="student-registration-form">
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label>Student Name</label>
+                      <input type="text" class="form-control" name="studentName" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label>Class</label>
+                      <input type="text" class="form-control" name="class" placeholder="e.g. 10th, 11th" required>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label>Board</label>
+                      <select class="form-control" name="board" required>
+                        <option value="">Select Board</option>
+                        <option>State</option>
+                        <option>CBSE</option>
+                        <option>ICSE</option>
+                        <option>Others</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label>School</label>
+                      <input type="text" class="form-control" name="school" placeholder="School Name" required>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label>Place</label>
+                      <input type="text" class="form-control" name="place" placeholder="City/Town" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label>Parent Name</label>
+                      <input type="text" class="form-control" name="parentName" placeholder="Parent/Guardian Name" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label>Contact Number</label>
+                    <input type="tel" class="form-control" name="contactNumber" placeholder="(+91) 90000 00000" required>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block mt-3">Register</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0 wow fadeInRight" data-wow-delay="0.4s">
+            <div class="p-4 bg-light rounded h-100">
+              <h5>What happens next?</h5>
+              <p class="text-muted">Our academic coach connects within 24 hours to map readiness, share reading lists and confirm your cohort.</p>
+              <ul class="list-unstyled text-muted">
+                <li class="mb-2"><i class="lni-calendar"></i>Flexible cohort start dates</li>
+                <li class="mb-2"><i class="lni-support"></i>Parent guidance call & resources</li>
+                <li><i class="lni-certificate"></i>Completion badges & mentoring reports</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="school-registration" class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInUp">School Registration</h2>
+          <span>Schools</span>
+          <p class="section-subtitle wow fadeInUp" data-wow-delay="0.2s">Co-create civics labs, UPSC orientation clubs and leadership residencies for your campus.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-7 wow fadeInLeft" data-wow-delay="0.3s">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <form id="school-registration-form">
+                  <div class="form-group">
+                    <label>School Name</label>
+                    <input type="text" class="form-control" name="schoolName" placeholder="School/Institution Name" required>
+                  </div>
+                  <div class="form-group">
+                    <label>Board</label>
+                    <select class="form-control" name="board" required>
+                      <option value="">Select Board</option>
+                      <option>State</option>
+                      <option>CBSE</option>
+                      <option>ICSE</option>
+                      <option>Others</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label>Place</label>
+                    <input type="text" class="form-control" name="place" placeholder="City/Town" required>
+                  </div>
+                  <div class="form-group">
+                    <label>Principal Name</label>
+                    <input type="text" class="form-control" name="principalName" placeholder="Principal Name" required>
+                  </div>
+                  <div class="form-group">
+                    <label>Contact</label>
+                    <input type="tel" class="form-control" name="contact" placeholder="(+91) 90000 00000" required>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block mt-3">Register School</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 mt-4 mt-lg-0 wow fadeInRight" data-wow-delay="0.4s">
+            <div class="card border-0 shadow-sm h-100">
+              <div class="card-body">
+                <h5>Why partner with us?</h5>
+                <p class="text-muted">Schools rely on IAS Champion to launch NEP-aligned electives, invest in social science labs and upskill faculty.</p>
+                <ul class="list-unstyled text-muted mb-0">
+                  <li class="mb-3"><i class="lni-network mr-2"></i>End-to-end lab setup & certification</li>
+                  <li class="mb-3"><i class="lni-users mr-2"></i>Teacher residency & co-teaching models</li>
+                  <li><i class="lni-stamp mr-2"></i>Outcome reports aligned to board requirements</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="testimonials" class="testimonial section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInUp">Testimonials</h2>
+          <span>What People Say</span>
+          <p class="section-subtitle wow fadeInUp" data-wow-delay="0.2s">
+            Hear from our students, parents, and educators about their IAS Champion journey.
+          </p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-10">
+            <div class="testimonial-carousel owl-carousel">
+              <div class="item wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-card text-center p-4 bg-white shadow rounded">
+                  <img src="img/testimonial/img1.jpg" alt="Meera Nadar" class="rounded-circle mb-3 mx-auto" width="80" height="80" style="object-fit: cover;">
+                  <blockquote class="mb-3 font-italic lead">
+                    “Discipline calendars, mentor nudges and GK labs turned civics into our daughter's favourite subject. Her confidence on stage is unrecognisable.”
+                  </blockquote>
+                  <strong class="d-block">Meera Nadar</strong>
+                  <span class="text-muted small d-block mb-2">IAS Parent</span>
+                </div>
+              </div>
+              <div class="item wow fadeInUp" data-wow-delay="0.2s">
+                <div class="testimonial-card text-center p-4 bg-white shadow rounded">
+                  <img src="img/testimonial/img2.jpg" alt="Rahul Chabra" class="rounded-circle mb-3 mx-auto" width="80" height="80" style="object-fit: cover;">
+                  <blockquote class="mb-3 font-italic lead">
+                    “IAS Champion set up UPSC orientation clubs for 420 students in eight weeks. Attendance shot up 2x and our teachers gained ready-to-use civics projects.”
+                  </blockquote>
+                  <strong class="d-block">Rahul Chabra</strong>
+                  <span class="text-muted small d-block mb-2">Principal, Greenfield High</span>
+                </div>
+              </div>
+              <div class="item wow fadeInUp" data-wow-delay="0.3s">
+                <div class="testimonial-card text-center p-4 bg-white shadow rounded">
+                  <img src="img/testimonial/img3.jpg" alt="Sara Dsouza" class="rounded-circle mb-3 mx-auto" width="80" height="80" style="object-fit: cover;">
+                  <blockquote class="mb-3 font-italic lead">
+                    “Policy Lab sprints helped me build portfolios, publish op-eds and lead Model Parliament. UPSC feels achievable because I can see the roadmap.”
+                  </blockquote>
+                  <strong class="d-block">Sara Dsouza</strong>
+                  <span class="text-muted small d-block mb-2">Aspirant Pro, Grade 11</span>
+                </div>
+              </div>
+              <!-- Add more testimonial items here as needed -->
+            <!-- </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="team" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title wow fadeInUp">Our Team</h2>
+          <span>Team</span>
+          <p class="section-subtitle wow fadeInUp" data-wow-delay="0.2s">Educators, designers and strategists united by one mission.</p>
+        </div>
+        <div class="team-carousel owl-carousel">
+          <div class="item wow fadeInUp" data-wow-delay="0.1s">
+            <div class="single-team">
+              <img src="img/team/team1.png" alt="Prof. (Dr.) Akil ali Saiyed">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">Prof. (Dr.) Akil ali Saiyed</h4>
+                  <p>(Hon. Academic Advisor)</p>
+                  <ul class="social-list">
+                    <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item wow fadeInUp" data-wow-delay="0.2s">
+            <div class="single-team">
+              <img src="img/team/team2.png" alt="Mr. Mohammed Idrees Umair">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">Mr. Mohammed Idrees Umair</h4>
+                  <p>(UPSC Strategist & Educator)</p>
+                  <ul class="social-list">
+                    <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item wow fadeInUp" data-wow-delay="0.3s">
+            <div class="single-team">
+              <img src="img/team/team3.png" alt="Mr. Arafat ali Saiyed">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">Mr. Arafat ali Saiyed</h4>
+                  <p>(Constitutional Expert)</p>
+                  <ul class="social-list">
+                    <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item wow fadeInUp" data-wow-delay="0.4s">
+            <div class="single-team">
+              <img src="img/team/team4.png" alt="Dr. Sumaiya Shaikh (PT)">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">Dr. Sumaiya Shaikh (PT)</h4>
+                  <p>(Cognitive Learning & Wellness Coach)</p>
+                  <ul class="social-list">
+                    <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item wow fadeInUp" data-wow-delay="0.5s">
+            <div class="single-team">
+              <img src="img/team/team5.png" alt="Ms. Poonam Ghore">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">Ms. Poonam Ghore</h4>
+                  <p>(Student Development Expert)</p>
+                  <ul class="social-list">
+                    <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item wow fadeInUp" data-wow-delay="0.6s">
+            <div class="single-team">
+              <img src="img/team/team6.png" alt="Dr. Tanzila Saiyed">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">Dr. Tanzila Saiyed</h4>
+                  <p>(Mental Wellness Expert)</p>
+                  <ul class="social-list">
+                    <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item wow fadeInUp" data-wow-delay="0.7s">
+            <div class="single-team">
+              <img src="img/team/team7.png" alt="Dr. Shyamsunder B.">
+              <div class="team-details">
+                <div class="team-inner">
+                  <h4 class="team-title">Dr. Shyamsunder B.</h4>
+                  <p>(Ethics & Essay Writing Expert)</p>
+                  <ul class="social-list">
+                    <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section bg-dark text-white">
+      <div class="container">
+        <div class="section-header text-white">
+          <h2 class="section-title wow fadeInUp">Contact Us</h2>
+          <span>Connect</span>
+          <p class="section-subtitle wow fadeInUp" data-wow-delay="0.2s">We are here to answer questions about programs, partnerships or media.</p>
+        </div>
+        <div class="row mb-4">
+          <div class="col-md-4 mb-3 mb-md-0 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="contact-card h-100">
+              <i class="lni-map-marker"></i>
+              <h5 class="mb-1">Enquiry Form</h5>
+              <p class="text-white-50 small mb-2">Have a question or want to join a cohort? Fill our short Google enquiry form or scan the QR code to open it on your phone.</p>
+
+              <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
+                <div class="contact-enquiry-info text-md-left">
+                  <a href="https://forms.gle/GKPdvAx6ZkyV6evJ8" target="_blank" rel="noopener noreferrer" class="btn btn-common btn-effect mb-2">
+                    Open Enquiry Form
+                  </a>
+                  <div class="d-block small text-white-50">
+                    <a href="https://forms.gle/GKPdvAx6ZkyV6evJ8" target="_blank" rel="noopener noreferrer" class="text-white-50" style="text-decoration:underline;">Google Form: Enquiry Form</a>
+                  </div>
+                </div>
+
+                <div class="qr-container text-center mt-3 mt-md-0">
+                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://forms.gle/GKPdvAx6ZkyV6evJ8&format=png" 
+                       alt="QR Code to Enquiry Form" 
+                       class="qr-code img-fluid rounded">
+                  <div class="small text-white-50 mt-2">Scan to open the form</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3 mb-md-0 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="contact-card h-100">
+              <i class="lni-headphone-alt"></i>
+              <h5 class="mb-1">Admissions Desk</h5>
+              <div class="contact-contacts">
+                <a href="tel:+919035155635" class="contact-phone">+91 90351 55635</a>
+                <a href="mailto:info.iaschampion@gmail.com" class="contact-email d-block">info.iaschampion@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="contact-card h-100">
+              <i class="lni-briefcase"></i>
+              <h5 class="mb-1">Partnerships</h5>
+              <p class="mb-0">contact@iaschampion.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+          <div class="col-lg-5 mb-4 mb-lg-0 wow fadeInLeft" data-wow-delay="0.3s">
+            <div class="contact-info_area">
+              <ul class="footer-social mt-4">
+                <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
+                <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="lni-linkedin-fill"></i></a></li>
+                <li><a class="instagram" href="#"><i class="lni-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-black text-white py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <h5 style="color: #fff;">IAS Champion</h5>
+            <p class="mb-0 text-muted">UPSC foundation journeys, leadership labs and mentorship for ambitious school students.</p>
+          </div>
+          <div class="col-md-4 text-md-right mt-3 mt-md-0">
+            <a href="#student-registration" class="btn btn-border text-white">Enroll Today</a>
+          </div>
+        </div>
+        <hr class="border-secondary my-4">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="mb-0 text-muted">© <script>document.write(new Date().getFullYear());</script> IAS Champion. All rights reserved.</p>
+          </div>
+          <div class="col-md-6 text-md-right">
+            <a href="#about" class="text-muted mr-3">About</a>
+            <a href="#courses" class="text-muted mr-3">Courses</a>
+            <a href="#contact" class="text-muted">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top">
+      <i class="lni-arrow-up"></i>
+    </a>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/919886530021?text=Hello%20IAS%20Champion!%20I%20would%20like%20to%20know%20more%20about%20your%20programs." 
+       class="whatsapp-float"
+       style="bottom: 130px; right: 15px; position: fixed; z-index: 9999;" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       title="Chat with us on WhatsApp">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" fill="#fff"/>
+      </svg>
+    </a>
+
+    <div id="loader">
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+    </div>
+
+    <script src="js/jquery-min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/color-switcher.js"></script>
+    <script src="js/jquery.mixitup.js"></script>
+    <script src="js/nivo-lightbox.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jquery.vide.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      $(function () {
+        // Initialize WOW.js for animations
+        new WOW().init();
+        
+        // Testimonials carousel with auto-scroll
+        $('.testimonial-carousel').owlCarousel({
+          autoplay: true,
+          autoplayTimeout: 5000,
+          autoplayHoverPause: true,
+          loop: true,
+          margin: 30,
+          dots: true,
+          nav: false,
+          center: true,
+          smartSpeed: 900,
+          responsive: {
+            0: { items: 1 },
+            768: { items: 2 },
+            1200: { items: 3 }
+          }
+        });
+        
+        // Team carousel with auto-scroll
+        $('.team-carousel').owlCarousel({
+          loop: true,
+          autoplay: true,
+          autoplayTimeout: 3000,
+          autoplayHoverPause: true,
+          margin: 30,
+          nav: false,
+          dots: false,
+          smartSpeed: 800,
+          responsive: {
+            0: { items: 1 },
+            576: { items: 2 },
+            992: { items: 3 },
+            1200: { items: 4 }
+          }
+        });
+        
+        // Smooth scroll for anchor links
+        $('a[href^="#"]').on('click', function(event) {
+          var target = $(this.getAttribute('href'));
+          if( target.length ) {
+            event.preventDefault();
+            $('html, body').stop().animate({
+              scrollTop: target.offset().top - 80
+            }, 1000);
+          }
+        });
+
+        // Form Submission Handlers with Alerts
+        function showSuccessAlert(message) {
+          var alertHtml = '<div class="alert alert-success alert-success-custom alert-dismissible fade show" role="alert">' +
+            '<i class="lni-check-mark-circle mr-2"></i><strong>Success!</strong> ' + message +
+            '<button type="button" class="close" data-dismiss="alert" aria-label="Close">' +
+            '<span aria-hidden="true">&times;</span></button></div>';
+          $('body').append(alertHtml);
+          setTimeout(function() {
+            $('.alert-success-custom').fadeOut(500, function() {
+              $(this).remove();
+            });
+          }, 5000);
+        }
+
+        // Student Registration Form
+        $('#student-registration-form').on('submit', function(e) {
+          e.preventDefault();
+          var formData = $(this).serialize();
+          // Simulate form submission (replace with actual AJAX call)
+          setTimeout(function() {
+            showSuccessAlert('Your student registration has been received! Our team will contact you within 24 hours.');
+            $('#student-registration-form')[0].reset();
+          }, 500);
+        });
+
+        // School Registration Form
+        $('#school-registration-form').on('submit', function(e) {
+          e.preventDefault();
+          var formData = $(this).serialize();
+          // Simulate form submission (replace with actual AJAX call)
+          setTimeout(function() {
+            showSuccessAlert('Your school partnership request has been received! Our partnerships team will reach out within 24 hours.');
+            $('#school-registration-form')[0].reset();
+          }, 500);
+        });
+
+        // Contact Form
+        $('#contact-form').on('submit', function(e) {
+          e.preventDefault();
+          var formData = $(this).serialize();
+          
+          // Send form data to email via Formspree (or similar service)
+          $.ajax({
+            url: 'https://formspree.io/f/xpzvjazg', // Example Formspree endpoint (replace with your own if needed)
+            method: 'POST',
+            data: formData,
+            dataType: 'json',
+            success: function() {
+              showSuccessAlert('Your message has been sent successfully! We will respond to your enquiry soon.');
+              $('#contact-form')[0].reset();
+            },
+            error: function() {
+              showSuccessAlert('There was a problem sending your message. Please try again or email us directly at ravi12karti@gmail.com.');
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

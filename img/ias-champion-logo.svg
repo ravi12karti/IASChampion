@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 220" role="img" aria-labelledby="title desc">
+  <title id="title">IAS Champion Logo</title>
+  <desc id="desc">IAS Champion UPSC Foundation Course for School Students</desc>
+  <style>
+    text {
+      font-family: 'Montserrat', 'Open Sans', Arial, sans-serif;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    .accent-red { fill: #C5161D; }
+    .accent-purple { fill: #4D2B85; }
+    .tagline {
+      font-weight: 600;
+      font-size: 28px;
+      letter-spacing: 0;
+    }
+    .supporting {
+      font-weight: 500;
+      font-size: 24px;
+      letter-spacing: 0;
+    }
+  </style>
+  <g fill="none" fill-rule="evenodd">
+    <text class="accent-red" font-size="96" x="94" y="88">IAS</text>
+    <polygon class="accent-red" points="83 106 153 106 118 116"/>
+    <polygon class="accent-red" points="303 106 373 106 338 116"/>
+    <polygon class="accent-purple" points="235 42 254 42 274 88 255 88"/>
+    <polygon class="accent-purple" points="275 42 294 42 314 88 295 88"/>
+    <text class="accent-purple" font-size="84" x="30" y="170">CHAMPION</text>
+    <rect class="accent-purple" x="35" y="186" width="200" height="4" rx="2"/>
+    <rect class="accent-purple" x="385" y="186" width="200" height="4" rx="2"/>
+    <polygon class="accent-red" points="320 173 332 173 326 190"/>
+    <text class="supporting" fill="#111" x="64" y="212">UPSC Foundation Course for School Students</text>
+  </g>
+</svg>
+
